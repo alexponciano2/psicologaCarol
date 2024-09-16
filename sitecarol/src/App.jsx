@@ -4,31 +4,24 @@ import Contact from '../src/components/pages/Contact'
 import AboutMe from '../src/components/pages/AboutMe'
 import Company from '../src/components/pages/Company'
 import Container from '../src/components/layout/Container'
+import Footer from '../src/components/layout/Footer'
+import Navbar from '../src/components/layout/Navbar'
+
 
 function App() {
 
   return (
     <Router >
-      <ul>
-        <Link to='/'>Home</Link>
-        <Link to='/Contact'>Contato</Link>
-        <Link to='/Company'>Empresa</Link>
-        <Link to='/AboutMe'>Sobre Mim</Link>
-      </ul>
+      <Navbar />
       <Container customClass='min-height'>
-
         <Routes>
-          <Route path="/" element={<Home />} />
-
+          <Route path="/"        element={<Home    />} />
           <Route path="/company" element={<Company />} />
-
           <Route path="/aboutme" element={<AboutMe />} />
-
           <Route path="/contact" element={<Contact />} />
         </Routes>
-
       </Container>
-      <p>Footer</p>
+      <Footer />
     </Router >
   )
 }
