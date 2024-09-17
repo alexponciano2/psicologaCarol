@@ -23,3 +23,7 @@
 .item a:hover {
     color: #ffbb33;
 }
+
+.logo {
+    width: 50%;
+}
