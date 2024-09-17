@@ -9,7 +9,7 @@ function Navbar() {
     <div className={styles.navbar}>
       <Container>
         <Link to="/">
-          <img src={logo} alt="Costs" />
+          <img src={logo} alt="Costs" className={styles.logo}/>
         </Link>
         <ul className={styles.list}>
           <li className={styles.item}>
