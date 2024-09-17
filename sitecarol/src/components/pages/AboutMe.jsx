@@ -3,11 +3,12 @@ import styles from '../pages/AboutMe.module.css'
 
 function AboutMe() {
     return (
-        <div className="container">
-            <div className="image-side">
+        <div className={styles.container}>
+            <div className={styles.imageside}>
                 <img src={homecarol} alt="carol" className={styles.imagem}></img>
+                <div class={styles.overlaygradient}></div>
             </div>
-            <div className="gradient-side"></div>
+            <div className={styles.gradientside}></div>
         </div>
     )
 }
