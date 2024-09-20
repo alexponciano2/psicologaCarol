@@ -1,5 +1,18 @@
-.container{
-  width: 100%;
+.container {
+  width: 1200px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center; /* Alinha verticalmente no centro */
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.textinho {
+  flex: 1; /* O texto ocupa um espaço flexível */
+  margin-right: 20px; /* Adiciona espaço entre o texto e a imagem */
+}
+
+.full-width-image {
+  width: 50%; /* A imagem ocupa 50% do container */
+  object-fit: cover; /* Mantém as proporções da imagem */
 }

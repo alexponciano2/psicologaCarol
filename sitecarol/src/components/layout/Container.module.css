@@ -1,20 +1,19 @@
 .container {
-    width: 1200px;
+    width: 70%; /* O container ocupa 100% da largura disponível */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Espaço entre texto e imagem */
+    align-items: center; /* Alinha o conteúdo verticalmente */
     margin: 0 auto;
-    flex-wrap: wrap;
+    flex-wrap: nowrap; /* Garante que o texto e a imagem fiquem lado a lado */
   }
   
-  .start {
-    justify-content: flex-start;
+  .textinho {
+    flex: 1; /* O texto ocupa um espaço flexível */
+    margin-right: 20px; /* Espaçamento entre o texto e a imagem */
   }
   
-  .column {
-    flex-direction: column;
-    justify-content: flex-start;
+  .full-width-image {
+    width: 50%; /* A imagem ocupa 50% do container */
+    object-fit: cover; /* Mantém a proporção da imagem */
   }
   
-  .min-height {
-    min-height: 80%;
-  }
