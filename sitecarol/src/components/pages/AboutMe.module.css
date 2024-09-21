@@ -1,18 +1,81 @@
-.container {
-  width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; /* Alinha verticalmente no centro */
-  margin: 0 auto;
-  flex-wrap: wrap;
+.background-image {
+  width: 100%;
+  height: 90vh; /* Defina uma altura para que o background seja visível */
+  background-size: cover;
+  background-position: center;
+  background-image: url('../../img/Carolina1920x1080.png'); /* Verifique o caminho da imagem */
+  background-color: lightgray; /* Apenas para testar se o div está visível */
 }
 
-.textinho {
-  flex: 1; /* O texto ocupa um espaço flexível */
-  margin-right: 20px; /* Adiciona espaço entre o texto e a imagem */
+/* Media query para telas grandes (acima de 1200px) */
+@media (min-width: 1200px) {
+  .background-image {
+    background-image: url('../../img/Carolina1920x1080.png');
+    /* Imagem para telas grandes */
+  }
+
+  .container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Alinha verticalmente no centro */
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .full-width-image {
+    width: 50%;
+    object-fit: cover;
+  }
 }
 
-.full-width-image {
-  width: 50%; /* A imagem ocupa 50% do container */
-  object-fit: cover; /* Mantém as proporções da imagem */
+/* Media query para telas médias (entre 768px e 1199px) */
+@media (max-width: 1199px) {
+  .background-image {
+    background-image: url('../../img/Carolina6.png');
+    /* Imagem para telas grandes */
+  }
+
+  .container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Alinha verticalmente no centro */
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .full-width-image {
+    width: 50%;
+    /* A imagem ocupa 50% do container */
+    object-fit: cover;
+    /* Mantém as proporções da imagem */
+  }
+}
+
+/* Media query para telas pequenas (abaixo de 768px) */
+@media (max-width: 767px) {
+  .background-image {
+    background-image: url('../../img/Carolina5.png');
+    /* Imagem para telas grandes */
+  }
+
+  .container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Alinha verticalmente no centro */
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .full-width-image {
+    width: 50%;
+    /* A imagem ocupa 50% do container */
+    object-fit: cover;
+    /* Mantém as proporções da imagem */
+  }
 }
