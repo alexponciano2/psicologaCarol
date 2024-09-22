@@ -1,30 +1,58 @@
 .home_container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 4em;
-    height: 85vh;
-  }
-  
-  .home_container h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-  }
-  
-  .home_container h1 span {
-    color: #ffbb33;
-    padding: 0 0.2em;
-    background-color: #222;
-  }
-  
-  .home_container p {
-    margin-bottom: 1.5em;
-    color: #7b7b7b;
-  }
-  
-  .home_container img {
-    width: 350px;
-    margin: 2em 0;
-  }
+  width: 100%;
+  max-width: 600px; /* Definindo a largura máxima do conteúdo */
+  display: flex;
+  flex-direction: column; /* Organiza os itens verticalmente */
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+  margin: 0 auto;
+  padding: 0 20px; /* Adiciona espaçamento interno */
+  color: #2e4636;
+}
+
+.home_container h1 {
+  font-size: 3em; /* Aumenta o tamanho do título para destacar */
+  margin-bottom: 0.5em;
+  line-height: 1.2em; /* Deixa o texto mais espaçado */
+  font-weight: 600; /* Deixa o título mais marcante */
+}
+
+.home_container h2 {
+  padding-bottom: 30px;
+}
+
+.home_container h1 span {
+  color: #ffbb33;
+  padding: 0 0.3em; /* Aumenta o espaçamento interno */
+  background-color: #222;
+  border-radius: 5px; /* Adiciona bordas arredondadas ao fundo do destaque */
+}
+
+.home_container p {
+  margin-bottom: 1.5em;
+  font-size: 1.2em; /* Aumenta o tamanho do texto para facilitar a leitura */
+  line-height: 1.6em; /* Aumenta o espaçamento entre linhas */
+  max-width: 900px; /* Limita a largura do parágrafo para melhorar a legibilidade */
+}
+
+/* .home_container img {
+  width: 350px;
+  margin: 2em 0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.listatoda {
+  list-style-type: none; /* Remove o marcador padrão */
+  position: relative;
+}
+
+.listatoda::before {
+  content: '•'; /* Substitui o marcador com o conteúdo desejado (pode usar emoji ou símbolo) */
+  color: #2e4636; /* Cor do marcador */
+  font-size: 1.5em; /* Tamanho do marcador */
+  position: absolute;
+  left: -15px; /* Move o marcador para a esquerda */
+  top: -6px;
+}
