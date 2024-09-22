@@ -7,12 +7,41 @@
   background-color: lightgray; /* Apenas para testar se o div está visível */
 }
 
-/* Media query para telas grandes (acima de 1200px) */
-@media (min-width: 1200px) {
+@media (min-width: 1920px) {
   .background-image {
     background-image: url('../../img/Carolina1920x1080.png');
     /* Imagem para telas grandes */
     height: 85vh;
+    max-width: 60%;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Alinha verticalmente no centro */
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .full-width-image {
+    width: 50%;
+    object-fit: cover;
+  }
+}
+
+/* Media query para telas grandes (acima de 1200px) */
+@media (max-width: 1919px) {
+  .background-image {
+    background-image: url('../../img/Carolina1920x1080.png');
+    /* Imagem para telas grandes */
+    height: 85vh;
+    max-width: 90%;
+    background-position: center;
+    margin: 0 auto;
   }
 
   .container {
@@ -34,9 +63,12 @@
 /* Media query para telas médias (entre 768px e 1199px) */
 @media (max-width: 1199px) {
   .background-image {
-    background-image: url('../../img/Carolina6.png');
+    background-image: url('../../img/Carolina767x915.png');
     /* Imagem para telas grandes */
-    height: 85vh;
+    height: 90vh;
+    background-position: center;
+    margin: 0 auto;
+    max-width: 80%;
   }
 
   .container {
@@ -59,6 +91,35 @@
 
 /* Media query para telas pequenas (abaixo de 768px) */
 @media (max-width: 767px) {
+  .background-image {
+    background-image: url('../../img/Carolina767x915.png');
+    /* Imagem para telas grandes */
+    height: 85vh;
+    background-position: center;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-left: 2px;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Alinha verticalmente no centro */
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .full-width-image {
+    width: 100%;
+    /* A imagem ocupa 50% do container */
+    object-fit: cover;
+    /* Mantém as proporções da imagem */
+  }
+}
+
+@media (max-width: 576px) {
   .background-image {
     background-image: url('../../img/Carolina5.png');
     /* Imagem para telas grandes */

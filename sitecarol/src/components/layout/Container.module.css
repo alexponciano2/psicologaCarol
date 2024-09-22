@@ -1,5 +1,5 @@
 .container {
-    width: 70%; /* O container ocupa 100% da largura disponível */
+    width: 100%; /* O container ocupa 100% da largura disponível */
     display: flex;
     justify-content: space-between; /* Espaço entre texto e imagem */
     align-items: center; /* Alinha o conteúdo verticalmente */

@@ -1,30 +1,103 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    background-color: #089C9C;
+@media (max-width: 767px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #089C9C;
+    }
+
+    .list {
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+
+    .item {
+        margin-right: 4em;
+        font-size: 1.3rem;
+        width: 110px;
+    }
+
+    .item a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .item a:hover {
+        color: #ffbb33;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
 }
 
-.list{
-    display: flex;
-    list-style: none;
-    align-items: center;
+@media (max-width: 1199px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #089C9C;
+    }
+
+    .list {
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+
+    .item {
+        margin-right: 1em;
+        font-size: 1.3rem;
+        width: 110px;
+    }
+
+    .item a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .item a:hover {
+        color: #ffbb33;
+    }
+
+    .logo {
+        width: 35%;
+        margin-left: 40px;
+    }
+
 }
 
-.item{
-    margin-right: 4em;
-    font-size: 1.3rem;
-    width: 110px;
-}
+@media (min-width: 1200px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #089C9C;
+    }
 
-.item a {
-    color: #fff;
-    text-decoration: none;
-}
+    .list {
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
 
-.item a:hover {
-    color: #ffbb33;
-}
+    .item {
+        margin-right: 4em;
+        font-size: 1.3rem;
+        width: 110px;
+    }
 
-.logo {
-    width: 20%;
+    .item a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .item a:hover {
+        color: #ffbb33;
+    }
+
+    .logo {
+        width: 200px;
+        margin-left: 100px;
+    }
+
 }
