@@ -1,14 +1,13 @@
-import styles from './Home.module.css'
+import React from 'react';
+import Container from '../layout/Container';
+import styles from '../pages/Home.module.css';
 
 function Home() {
   return (
-    <section className={styles.home_container}>
-      <h1>
-        Psicologia com <span>Carol Reis</span>
-      </h1>
-      <p>Comece a gerenciar os seus projetos agora mesmo!</p>
-    </section>
-  )
+    <Container customClass="start">      
+      <div className={styles['background-image']}></div> {/* Aplicando a classe via CSS Modules */}
+    </Container>
+  );
 }
 
-export default Home
+export default Home;

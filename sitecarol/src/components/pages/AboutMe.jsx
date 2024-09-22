@@ -1,13 +1,14 @@
-import React from 'react';
-import Container from '../layout/Container';
-import styles from '../pages/AboutMe.module.css';
+import styles from './AboutMe.module.css'
 
 function AboutMe() {
   return (
-    <Container customClass="start">      
-      <div className={styles['background-image']}></div> {/* Aplicando a classe via CSS Modules */}
-    </Container>
-  );
+    <section className={styles.home_container}>
+      <h1>
+        Psicologia com <span>Carol Reis</span>
+      </h1>
+      <p>Comece a gerenciar os seus projetos agora mesmo!</p>
+    </section>
+  )
 }
 
-export default AboutMe;
+export default AboutMe

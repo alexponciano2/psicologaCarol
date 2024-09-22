@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     background-color: #089C9C;
-    padding: 1em;
 }
 
 .list{
@@ -14,6 +13,7 @@
 .item{
     margin-right: 4em;
     font-size: 1.3rem;
+    width: 110px;
 }
 
 .item a {
