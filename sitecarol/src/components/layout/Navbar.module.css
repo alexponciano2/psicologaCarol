@@ -3,6 +3,8 @@
         display: flex;
         justify-content: space-between;
         background-color: #089C9C;
+        z-index: 9999;
+        position: absolute;
     }
 
     .list {
