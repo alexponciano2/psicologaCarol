@@ -67,8 +67,9 @@
     /* Imagem para telas grandes */
     height: 90vh;
     background-position: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     max-width: 80%;
+    padding-top: 550px;
   }
 
   .container {
