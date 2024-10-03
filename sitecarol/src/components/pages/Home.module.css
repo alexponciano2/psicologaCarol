@@ -144,3 +144,28 @@
     /* Mantém as proporções da imagem */
   }
 }
+
+@media (max-width: 345px) {
+  .background-image {
+    background-image: url('../../img/Carolina412x915.png');
+    /* Imagem para telas grandes */
+    height: 100vh;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Alinha verticalmente no centro */
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .full-width-image {
+    width: 50%;
+    /* A imagem ocupa 50% do container */
+    object-fit: cover;
+    /* Mantém as proporções da imagem */
+  }
+}
