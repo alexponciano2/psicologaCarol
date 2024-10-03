@@ -148,7 +148,7 @@
 @media (max-width: 345px) {
   .background-image {
     background-image: url('../../img/Carolina412x915.png');
-    /* Imagem para telas grandes */
+    /* Imagem para telas pequenas */
     height: 90vh;
   }
 
