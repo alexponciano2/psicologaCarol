@@ -6,6 +6,8 @@ import Company from '../src/components/pages/Company'
 import Container from '../src/components/layout/Container'
 import Footer from '../src/components/layout/Footer'
 import Navbar from '../src/components/layout/Navbar'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
