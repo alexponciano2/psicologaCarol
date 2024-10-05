@@ -124,7 +124,8 @@
   .background-image {
     background-image: url('../../img/Carolina412x915.png');
     /* Imagem para telas grandes */
-    height: 110vh;
+    height: 90vh;
+    position: relative;
   }
 
   .container {

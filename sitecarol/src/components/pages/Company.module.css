@@ -1,9 +1,26 @@
 .company {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 4em;
-    height: 85vh;
-  }
+  width: 100%;
+  max-width: 600px; /* Definindo a largura máxima do conteúdo */
+  display: flex;
+  flex-direction: column; /* Organiza os itens verticalmente */
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px; /* Adiciona espaçamento interno */
+  color: #2e4636;
+}
+
+
+h3 {
+  text-align: justify;
+  color: #2e4636;
+  font-size: 3em;
+  /* Aumenta o tamanho do título para destacar */
+  margin-bottom: 0.5em;
+  line-height: 1.2em;
+  /* Deixa o texto mais espaçado */
+  font-weight: 600;
+  /* Deixa o título mais marcante */
+  padding: 3rem 1rem 1rem 1rem;
+}

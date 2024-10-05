@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import { Navbar, Container, Offcanvas, Nav } from "react-bootstrap";
 import logo from "../../img/LOGO2.png";
+import styles from './Navbar.module.css'
 
 function CustomNavbar() {
   // Estado para controlar o Offcanvas
@@ -14,11 +15,11 @@ function CustomNavbar() {
   return (
     <>
       {/* Navbar Principal com `expand="lg"` para ativar Offcanvas em resoluções menores */}
-      <Navbar bg="light" expand="lg" className="mb-3">
-        <Container fluid>
+      <Navbar style={{ backgroundColor: '#089C9C' }} expand="lg"  className={styles.mb3} >
+        <Container fluid >
           {/* Logo com Link para a Home */}
           <Navbar.Brand as={Link} to="/">
-            <img src={logo} alt="Logo" style={{ height: '40px' }} />
+            <img src={logo} alt="Logo" style={{ height: '50px'}} />
           </Navbar.Brand>
 
           {/* Botão para abrir o Offcanvas, visível apenas em telas menores */}

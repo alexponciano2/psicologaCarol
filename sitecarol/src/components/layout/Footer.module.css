@@ -156,12 +156,17 @@
       color: #fff;
       padding: 3em;
       text-align: center;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+
     }
     
     .social_list {
       display: flex;
       justify-content: center;
-      list-style-type: none;    
+      list-style-type: none;
+      padding-left: 0px;
     }
     
     .social_list li {
