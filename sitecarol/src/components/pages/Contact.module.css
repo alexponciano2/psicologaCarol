@@ -1,9 +1,19 @@
 .contact {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 4em;
-    height: 85vh;
-  }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4em;
+  height: 85vh;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 0px;
+  gap: 50px;
+}

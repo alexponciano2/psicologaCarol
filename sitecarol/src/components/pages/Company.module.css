@@ -5,22 +5,20 @@
   flex-direction: column; /* Organiza os itens verticalmente */
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 85vh;
   margin: 0 auto;
   padding: 0 20px; /* Adiciona espaçamento interno */
   color: #2e4636;
 }
 
+.titulo {
+  padding-top: 2rem;
+}
 
-h3 {
-  text-align: justify;
-  color: #2e4636;
-  font-size: 3em;
-  /* Aumenta o tamanho do título para destacar */
-  margin-bottom: 0.5em;
-  line-height: 1.2em;
-  /* Deixa o texto mais espaçado */
-  font-weight: 600;
-  /* Deixa o título mais marcante */
-  padding: 3rem 1rem 1rem 1rem;
+.paragrafo {
+  margin-bottom: 1.5em;
+  font-size: 1.2em; /* Aumenta o tamanho do texto para facilitar a leitura */
+  line-height: 1.6em; /* Aumenta o espaçamento entre linhas */
+  max-width: 900px; /* Limita a largura do parágrafo para melhorar a legibilidade */
+  padding-top: 2rem;
 }

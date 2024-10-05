@@ -19,7 +19,7 @@ function CustomNavbar() {
         <Container fluid >
           {/* Logo com Link para a Home */}
           <Navbar.Brand as={Link} to="/">
-            <img src={logo} alt="Logo" style={{ height: '50px'}} />
+            <img src={logo} alt="Logo" style={{ height: '70px', color:'black'}} />
           </Navbar.Brand>
 
           {/* Botão para abrir o Offcanvas, visível apenas em telas menores */}
@@ -44,10 +44,10 @@ function CustomNavbar() {
             placement="end"
             className="d-lg-none" // Esconde o Offcanvas em telas grandes
           >
-            <Offcanvas.Header closeButton>
-              <Offcanvas.Title id="offcanvasNavbarLabel">Menu</Offcanvas.Title>
+            <Offcanvas.Header closeButton style={{ backgroundColor: '#089C9C' }}>
+              <Offcanvas.Title  id="offcanvasNavbarLabel">Menu</Offcanvas.Title>
             </Offcanvas.Header>
-            <Offcanvas.Body>
+            <Offcanvas.Body style={{ backgroundColor: '#E0DDD3' }}>
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 {/* Cada link chama handleClose para fechar o Offcanvas */}
                 <Nav.Link as={Link} to="/" onClick={handleClose}>Home</Nav.Link>
