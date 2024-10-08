@@ -5,7 +5,7 @@
   flex-direction: column; /* Organiza os itens verticalmente */
   align-items: center;
   justify-content: center;
-  height: 85vh;
+  height: 100%;
   margin: 0 auto;
   padding-top: 20px;
   color: #2e4636;
