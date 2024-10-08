@@ -6,8 +6,8 @@ function Contact() {
     <section className={styles.contact}>
       <h1>Contato</h1>
       <br></br>
-      <h2>Tel.: (27) 99800-6179</h2>
-      <h2>Tel.: (21) 3763-2987 </h2>
+      <h2>Tel.: (11) 95680-0830</h2>
+      <h2>Tel.: (11) 3065-9494 </h2>
       <ul className={styles.social}>
         <li>
         <a href="https://wa.me/5527998006179" target="_blank" rel="noopener noreferrer">
