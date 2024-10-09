@@ -10,17 +10,17 @@ function Contact() {
       <h2>Tel.: (11) 3065-9494 </h2>
       <ul className={styles.social}>
         <li>
-        <a href="https://wa.me/5527998006179" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/5511956800830" target="_blank" rel="noopener noreferrer">
         <FaWhatsapp size={50} color="#25D366" />
       </a>
         </li>
         <li>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/carolinareisf" target="_blank" rel="noopener noreferrer">
         <FaFacebook size={50} color="#1877F2" />
       </a>
         </li>
         <li>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/boannscathach/" target="_blank" rel="noopener noreferrer">
         <FaInstagram size={50} color="#E1306C" />
       </a>
         </li>
